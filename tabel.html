@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel</title>
+</head>
+<style>
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td{
+        padding: 15px;
+        border-color: red;
+    }
+</style>
+<body>
+    <h3>Tabel</h3>
+    <table style="width: 100%;">
+        <caption>Contoh table</caption>
+        <tr>
+            <th style="width: 10%;">Nomor</th>
+            <th style="width: 40%;">Nama</th>
+            <th style="width: 50%;">Alamat</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Budi</td>
+            <td>Jakarta</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rendra</td>
+            <td>Surabaya</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <caption>Colspan</caption>
+        <tr>
+            <th colspan="2">Nama</th>
+            <th>Usia</th>
+        </tr>
+        <tr>
+            <td>Joko</td>
+            <td>Susilo</td>
+            <td>43</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <caption>Rowspan</caption>
+        <tr>
+            <th>Nama</th>
+            <td>Joko</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telepon</th>
+            <td>08123456789</td>
+        </tr>
+        <tr>
+            <td>083434324</td>
+        </tr>
+    </table>
+</body>
+</html>
